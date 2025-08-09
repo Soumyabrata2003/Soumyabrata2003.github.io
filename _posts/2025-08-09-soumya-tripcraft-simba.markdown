@@ -2,11 +2,11 @@
 layout: post
 title:  "Simba: Mamba augmented U-ShiftGCN for Skeletal Action Recognition in Videos"
 date:   2024-04-09 17:29:59 +05:30
-image: /images/simba.jpg
+image: /images/simba.png
 categories: research
 author: "Soumyabrata Chaudhuri"
 authors: "<strong>Soumyabrata Chaudhuri</strong>, <a href=https://scholar.google.com/citations?user=8pffuA4AAAAJ&hl=en>Saumik Bhattacharya</a>"
-venue: "arxiv preprint"
+venue: "arxiv"
 # website: ""
 # venue: "in: Submitted to ACL 2025"
 arxiv: "https://arxiv.org/abs/2404.07645"
