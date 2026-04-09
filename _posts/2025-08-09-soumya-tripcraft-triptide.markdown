@@ -14,4 +14,4 @@ code: "To be released soon" #"https://github.com/Soumyabrata2003/TripCraft"
 # demo: ""
 
 ---
-We introduce TripCraft, a spatiotemporally coherent travel planning dataset that integrates real world constraints, including public transit schedules, event availability, diverse attraction categories, and user personas for enhanced personalization.
+we introduce TripTide, the first benchmark specifically designed to evaluate LLMs’ ability to adapt itineraries in the face of realistic disruptions. TripTide models key dimensions such as disruption severity levels and traveler tolerance profiles, enabling nuanced assessment of LLM responses to unexpected events like transit cancellations, weather-related closures, or overbooked attractions.
