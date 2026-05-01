@@ -14,4 +14,4 @@ code: "https://github.com/Soumyabrata2003/TripCraft"
 # demo: ""
 
 ---
-We introduce TripCraft, a spatiotemporally coherent travel planning dataset that integrates real world constraints, including public transit schedules, event availability, diverse attraction categories, and user personas for enhanced personalization.
+We introduce TripCraft, a spatiotemporally coherent travel planning dataset for Large Language Models (LLMs) that integrates real world constraints, including public transit schedules, event availability, diverse attraction categories, and user personas for enhanced personalization.
