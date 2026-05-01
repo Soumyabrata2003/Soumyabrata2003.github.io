@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TripTide: A Benchmark for Adaptive Travel Planning under Disruptions"
-date:   2025-10-24 17:01:59 +05:30
+date:   2026-04-15 17:01:59 +05:30
 image: /images/triptide.png
 categories: research
 author: "Soumyabrata Chaudhuri"
