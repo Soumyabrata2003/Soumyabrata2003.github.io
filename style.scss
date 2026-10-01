@@ -99,6 +99,124 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+/*************************/
+/* AFFILIATIONS SECTION  */
+/*************************/
+.affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px 4px;
+  margin-top: 18px;
+  margin-bottom: 4px;
+}
+
+.affiliation {
+  flex: 0 0 auto;
+  width: 120px;
+  text-align: center;
+}
+
+.affiliation-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 62px;
+}
+
+.affiliation-logo img {
+  max-width: 100%;
+  max-height: 62px;
+  width: auto;
+  height: auto;
+}
+
+.affiliation-label {
+  display: block;
+  margin-top: 8px;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #333;
+}
+
+/*************************/
+/* NEWS SECTION          */
+/*************************/
+.news-table {
+  width: 100%;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  margin-top: 14px;
+  text-align: justify;
+}
+
+.news-table td {
+  padding: 6px 0px;
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+.news-table .news-date {
+  width: 105px;
+  min-width: 105px;
+  padding-right: 12px;
+  white-space: nowrap;
+  font-weight: 700;
+  text-align: left;
+}
+
+.news-highlight {
+  color: #d0021b;
+}
+
+.news-highlight a {
+  color: #d0021b;
+  text-decoration: underline;
+}
+
+.news-highlight a:focus,
+.news-highlight a:hover {
+  color: #f09228;
+}
+
+.news-badge {
+  display: inline-block;
+  background-color: #d0021b;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin-right: 7px;
+  vertical-align: 1px;
+}
+
+@media screen and (max-width: 640px) {
+  .affiliation {
+    width: 96px;
+  }
+
+  .affiliation-logo {
+    height: 50px;
+  }
+
+  .affiliation-logo img {
+    max-height: 50px;
+  }
+
+  .news-table .news-date {
+    width: 86px;
+    min-width: 86px;
+    padding-right: 8px;
+    font-size: 13px;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
